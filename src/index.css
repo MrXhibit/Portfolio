@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.custom-input::placeholder {
+  color: #00ADB5; /* your custom hex */
+}
+
+/* :root {
+    --text-color: #EEEEEE; 
+    --bg-color: #222831; 
+  }
+  
+  body {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+  } */
